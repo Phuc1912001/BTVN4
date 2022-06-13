@@ -1,0 +1,99 @@
+.footer{
+    height: 1349px;
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+.contact-text{
+    font-size: 14px;
+    font-weight: bold;
+}
+.a{
+    border-left: 1px solid black;
+}
+.address-text{
+    font-size: 14px;
+}
+.bottom-footer{
+    border-top: 1px solid #ddd;;
+}
+.one{
+    width: 200px;
+}
+.two{
+    width: 400px;
+}
+ul li {
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	cursor: pointer;
+}
+.infor-list li{
+	line-height: 30px;
+	transition: 0.6s;
+}
+.infor-list li:hover{
+	margin-left:15px;
+}
+.infor-list li:hover a{
+	color: #575454;
+}
+.infor-list li a {
+	font-size: 12px;
+	color:#000;
+}
+
+.ad{
+	width: 100%;
+	min-height: 30px;
+	height: 30px;
+	margin-top:10px;
+	border:none;
+	background: #ebebeb;
+	border-bottom: 1px solid #bdbdbd;
+	color:black;
+	outline: none;
+}
+.input[type=text]:first-child{
+	margin-top:0;
+}
+.button{
+	padding:6px 12px;
+	background-color: #636060;
+    border:  1px solid #636060;
+    color: white;
+}
+.media{
+    display: flex;
+}
+
+.fa{
+    margin-left: 15px;
+    font-size: 40px;
+    
+	line-height: 40px;
+	height: 40px;
+	width: 40px;
+}
+.fb{
+	background-color: #3A589D;
+    text-align: center;
+    color: white;
+}
+.pin{
+	background: #E60023;
+    text-align: center;
+    
+}
+.insta{
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    text-align: center;
+}
+.youtube{
+	background: #DB473E;
+    text-align: center;
+}
